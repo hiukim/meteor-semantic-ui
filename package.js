@@ -3,6 +3,7 @@ Package.describe({
   name        : 'hiukim:semantic-ui',
   version     : '2.2.4',
   description : 'A wrapper for semantic-ui',
+  summary: 'A wrapper for semantic-ui',
 });
 
 Npm.depends({
