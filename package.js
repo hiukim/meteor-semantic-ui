@@ -1,28 +1,24 @@
 /*globals Package, Npm*/
 Package.describe({
   name        : 'hiukim:semantic-ui',
-  version     : '2.2.4',
+  version     : '3.0',
   description : 'A wrapper for semantic-ui',
   summary: 'A wrapper for semantic-ui',
-});
-
-Npm.depends({
-  'semantic-ui-css': '2.2.4',
 });
 
 Package.onUse(function (api) {
   api.versionsFrom('1.4');
   api.use('jquery', 'client');
   api.addFiles([
-    '.npm/package/node_modules/semantic-ui-css/semantic.js',
-    '.npm/package/node_modules/semantic-ui-css/semantic.css',
+    'semantic.js',
+    'semantic.css',
   ], 'client');
   api.addAssets([
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.eot',
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.otf',
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.svg',
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.ttf',
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.woff',
-    '.npm/package/node_modules/semantic-ui-css/themes/default/assets/fonts/icons.woff2',
+    'themes/default/assets/fonts/icons.eot',
+    'themes/default/assets/fonts/icons.otf',
+    'themes/default/assets/fonts/icons.svg',
+    'themes/default/assets/fonts/icons.ttf',
+    'themes/default/assets/fonts/icons.woff',
+    'themes/default/assets/fonts/icons.woff2',
   ], 'client');
 });
