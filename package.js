@@ -1,7 +1,7 @@
 /*globals Package, Npm*/
 Package.describe({
   name        : 'hiukim:semantic-ui',
-  version     : '3.0',
+  version     : '3.0.0',
   description : 'A wrapper for semantic-ui',
   summary: 'A wrapper for semantic-ui',
 });
