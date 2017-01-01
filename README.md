@@ -1,8 +1,10 @@
 # meteor-semantic-ui
 
-Add semantic-ui support for meteor (1.4 or above) app. 
+Add semantic-ui support for meteor (1.4 or above) app.
 
-Idea is taken from here: https://github.com/Semantic-Org/Semantic-UI-CSS/issues/23#issuecomment-257533357
+The official package doesn't support Meteor 1.4: https://github.com/Semantic-Org/Semantic-UI-CSS/issues/23
+
+You can use the official one once the issue is resolved.
 
 # Usage
 `> meteor add hiukim:semantic-ui`
